@@ -6,7 +6,7 @@ namespace ApiTest.Data
     {
         public long Id { get; set; }
         public string Name { get; set; }
-        [Column(TypeName = "jsonb")]
-        public Book Book { get; set; }
+        //[Column(TypeName = "jsonb")]
+        //public Book Book { get; set; }
     }
 }
